@@ -1,0 +1,45 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore model files
+*.h5
+
+*.weights.h5
+
+# Ignore dataset folders
+dataset/
+data/
+.DS_Store
+
+# Ignore logs, checkpoints
+*.log
+*.csv
+*.json
+*.png
+
+# Ignore system files
+Thumbs.db
+desktop.ini
+
+# Ignore IDE/project files
+.idea/
+*.iml
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# GitHub Codespaces or cloud cache
+*.code-workspace
+
+# Backup files
+*~
