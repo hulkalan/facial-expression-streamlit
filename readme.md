@@ -71,8 +71,8 @@ Webcam/Camera access
 1. **Clone the repository** 
 
    
-       git clone https://github.com/YOUR_USERNAME/facial-expression-recognition.git
-       cd facial-expression-recognition
+       git clone https://github.com/hulkalan/FACIAL_EXPRESSION.git
+       cd FACIAL_EXPRESSION
 
 
 2. **Create virtual environment**
