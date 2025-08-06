@@ -1,45 +1,50 @@
-# Ignore Python cache and compiled files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.so
+*$py.class
 
-# Ignore virtual environments
+# Virtual environment
 .venv/
 env/
 venv/
-
-# Ignore model files
-*.h5
-
-*.weights.h5
-
-# Ignore dataset folders
+ENV/
+*.env
 dataset/
-data/
+
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# Python backup files
+*.bak
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
 .DS_Store
 
-# Ignore logs, checkpoints
-*.log
-*.csv
-*.json
-*.png
-
-# Ignore system files
+# Windows
 Thumbs.db
 desktop.ini
 
-# Ignore IDE/project files
-.idea/
-*.iml
+# Model files
+*.h5
+*.hdf5
+*.keras
 
-# VSCode settings (if using VSCode)
-.vscode/
+# Logs
+*.log
 
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
+# Streamlit cache
+.streamlit/
 
-# GitHub Codespaces or cloud cache
-*.code-workspace
+# Python environment files
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Backup files
-*~
+# Gitignore itself
+.gitignore
