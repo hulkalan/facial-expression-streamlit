@@ -86,7 +86,7 @@ Webcam/Camera access
 
 4. **Run the application**
 
-       python webcam_detection.py
+       python app.py
 
 
 ---
