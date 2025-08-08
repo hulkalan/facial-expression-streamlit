@@ -172,7 +172,7 @@ Webcam/Camera access
 - **Class Balancing**: Weighted loss function for imbalanced classes
 - **Face Detection**: Haar Cascade classifier for face extraction
 
-### **Training Strategy**
+### **Training Strategy***
 - **Intelligent Callbacks**: Target-based early stopping
 - **Learning Rate Scheduling**: Cosine decay with warmup
 - **Regularization**: Dropout, batch normalization, L2 regularization
